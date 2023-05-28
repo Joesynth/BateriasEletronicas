@@ -1,0 +1,44 @@
+/* Usado em "ClaroVida" 
+@media all and (max-width : 768px) {
+	seletor {}
+}
+*/
+
+
+/* Site 596 usa:
+@media screen and (max-width: 767px) {
+...seletor {}
+}
+*/
+
+
+
+/* Há códigos CSS também em cada página, referentes a página em questão */
+/* Abaixo é o código CSS glogal, portanto afetando todas as páginas. */
+		nav {width: 100%; float: left; padding: 0.1em 0.1em;}
+		nav li {float: left;}
+		nav li a {
+			margin-right: 3px;
+			text-transform: uppercase;
+			background-color: white;
+			padding: 0.1em 0.1em;
+			font-size: 0.7em;
+			}
+		
+		/* muda cor do link ao passar mouse por cima */
+		nav li a:hover { color: black;} 
+		
+		/* tira a bolinha da list */
+		ul {list-style: none;} 
+		
+		/* tira o sublinhado da anchor */
+		a {text-decoration: none;}
+		
+
+	.panel {display: none}
+
+@media all and (max-width : 768px) {
+	.panel {display: block;}
+}
+
+
